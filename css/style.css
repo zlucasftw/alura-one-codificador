@@ -114,6 +114,7 @@ textarea {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin: 0 0 1rem 0;
 }
 
 .criptografar__aviso__imagem {
@@ -134,7 +135,6 @@ textarea {
     font-size: 1rem;
     font-weight: 400;
     border: 1px solid #0A3871;
-    
     border-radius: 1.5rem;
     padding: 1.5rem;
 }
@@ -148,6 +148,7 @@ textarea {
     color: #0A3871;
     background-color: #D8DFE8;
 }
+
 .criptografado__secao {
     width: 400px;
     height: 944px;
