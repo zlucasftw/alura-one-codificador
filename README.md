@@ -11,7 +11,7 @@ O desafio de Codificador de Texto é baseado visualmente em um design no Figma p
 
 Foto exemplo do Figma:
 
-[Figma](figma_exemplo.png)
+![Figma](figma_exemplo.png)
 
 [Projeto do desafio no Figma](https://www.figma.com/file/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16%3A802)
 
