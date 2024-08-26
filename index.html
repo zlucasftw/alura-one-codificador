@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decofidicador de Texto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/logo_alura.png" alt="Logo da Alura">
+    </header>
+    <main>
+    
+    
+        <section class="criptografar__secao">
+            <textarea class="criptografar__texto" wrap="hard" placeholder="Digite seu texto"></textarea>
+
+            <div class="criptografar__botoes">
+                <div class="criptografar__aviso">
+                    <img class="criptografar__aviso__imagem" src="assets/imagem_aviso.png" alt="">
+                    <p class="criptografar__aviso__texto">Apenas letras minúsculas e sem acento.</p>
+                </div>
+                <button class="criptografar__botao" onclick="buttonCriptografar()">Criptografar</button>
+                <button class="descriptografar__botao" onclick="buttonDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="criptografado__secao">
+            <!-- <textarea class="criptografado__texto" cols="20" rows="10"></textarea> -->
+            <span class="criptografado__resultado" hidden ></span>
+            <img class="criptografado__imagem" src="./assets/imagem_criptografado.png" alt="">
+
+            <div class="criptografado__mensagem">
+                <h1 class="criptografado__mensagem__principal">Nenhuma mensagem encontrada</h1>
+                <p class="criptografado__mensagem__secundaria">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button class="criptografado__botao" hidden >Copiar</button>
+        </section>
+
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

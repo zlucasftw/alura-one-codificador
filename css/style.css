@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+header {
+    width: 120px;
+    height: 48px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Inter', sans-serif;
+}
+
+.criptografar__secao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.criptografar__texto {
+    width: 680px;
+    height: 48px;
+    margin: 6rem 0;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+    margin: 2.5rem auto auto 2.5rem;
+}
+
+
+textarea {
+/*     width: 680px;
+    height: 288px; */
+    overflow-y: hidden;
+    background-color: inherit;
+    border: none;
+    color: #0A3871;
+    resize: none;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 400;
+/*     word-wrap: break-word;
+    word-break: break-all; */
+/*     text-wrap: wrap;
+    text-wrap-style: pretty; */
+}
+
+::placeholder {
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 2rem;
+    /* line-height: 150%; */
+}
+
+.criptografar__texto {
+    width: 680px;
+    height: 288px;
+    font-size: 32;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.criptografado__imagem {
+    width: 336px;
+    height: 304px;
+    margin: 0 0 2rem 0;
+}
+
+.criptografado__mensagem {
+    width: 336px;
+    height: 122px;
+    text-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.criptografado__mensagem__principal {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    /* margin: 0 0 0 1rem; */
+    color: #343A40;
+    margin: 0 0 1rem 0;
+}
+
+.criptografado__mensagem__secundaria {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #495057;
+}
+
+.criptografado__texto {
+    width: 336px;
+    height: 781px;
+    color: #0A3871;
+}
+
+.criptografar__aviso {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.criptografar__aviso__imagem {
+    width: 16px;
+    height: 16px;
+    margin: 0 1rem 0 0;
+}
+
+.criptografar__botao {
+    /* padding: 0 1.5rem 0 0; */
+    margin: 0 1.5rem 0 0;
+}
+
+/* .criptografar__botoes, */
+.criptografar__botao,
+.descriptografar__botao {
+    width: 328px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+}
+
+.criptografar__botao {
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.descriptografar__botao {
+    color: #0A3871;
+    background-color: #D8DFE8;
+}
+.criptografado__secao {
+    width: 400px;
+    height: 944px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #FFFFFF;
+    border-radius: 1.5rem;
+    box-shadow: 0 1.5rem 2rem #000000b2;
+/*     background-image: url(/assets/imagem_criptografado.png);
+    background-repeat: no-repeat;
+    background-position: 50%; */
+    /* position: fixed; */
+}
+
+.criptografado__resultado {
+    width: 336px;
+    height: 781px;
+    color: #0A3871;
+    font-weight: 400;
+    font-size: 2rem;
+    font-size: 24px;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.criptografado__botao {
+    width: 328px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    background-color: inherit;
+    margin: 0 2rem 2rem 2rem;
+}
