@@ -173,6 +173,7 @@ textarea {
     font-size: 2rem;
     font-size: 24px;
     margin: 2rem 2rem 2rem 2rem;
+    word-wrap: break-word;
 }
 
 .criptografado__botao {
